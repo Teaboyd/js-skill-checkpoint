@@ -14,7 +14,6 @@ const products = [
   { name: "banana", quantity: 0 },
   { name: "orange", quantity: 5 },
 ];
-
 console.log(filterInStockProducts(products));
 // ผลลัพธ์ที่ได้จากการ Execute Function คือ
 // [{ name: "apple", quantity: 2 }, { name: "orange", quantity: 5 }]

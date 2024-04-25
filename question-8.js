@@ -16,6 +16,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
   const newUsers = (users) =>{
     const newUsers = users.map(user => user.name);
     console.log(newUsers);
+    return newUsers;
   }
   
   getUsers().then(handleRespose).then(newUsers);*/
