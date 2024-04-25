@@ -2,14 +2,17 @@
 
 function calculateShippingCost(orderPrice) {
   // เริ่มเขียนโค้ดที่นี
-  if (orderPrice >= 4000){
+  return orderPrice >= 4000 ?"Shipping is Free." : orderPrice >= 2000 ?"Shipping cost is 250 Baht":"Shipping cost is 500 Baht";
+}
+
+  /*if (orderPrice >= 4000){
     return "Shipping is Free."
   }else if(orderPrice  >= 2000){
     return "Shipping cost is 250 Baht"
   }else{
     return "Shipping cost is 500 Baht"
   }
-}
+} */
 
 // ตัวอย่างการใช้งาน
 const orderTotal1 = 6000;
