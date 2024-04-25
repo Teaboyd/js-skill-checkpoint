@@ -11,3 +11,8 @@ const secondProductList = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+function addValue(firstProductList,secondProductList){
+  return [...firstProductList,...secondProductList];
+}
+
+console.log(addValue(firstProductList,secondProductList));

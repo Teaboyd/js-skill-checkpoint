@@ -2,6 +2,10 @@
 
 function calculateTotalPrice() {
   // เริ่มเขียนโค้ดตรงนี้
+ const totalPrice = cart.reduce((ResultFromOrderOrACC , order) => {
+  return ResultFromOrderOrACC + order.price * order.quantity;
+ },0);
+ return totalPrice;
 }
 
 // ตัวอย่างการใช้งาน
