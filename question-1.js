@@ -12,8 +12,8 @@ inventory.orange = {price:20,quantity:300};
 console.log(inventory)
 
 let totalPrice = 0;
-for (const pati in inventory){
-   const fruits = inventory[pati];
+for (const key in inventory){
+   const fruits = inventory[key];
    totalPrice += fruits.price * fruits.quantity;
 }
 
